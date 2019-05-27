@@ -1,1 +1,3 @@
-# 2_Algorithmization
+# Algorithmization
+
+Материал будет доступен с 3-го июня 2019 г.
