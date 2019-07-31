@@ -12,11 +12,12 @@ public class Task_1 {
         int k = scanner.nextInt();
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 100);
-                    System.out.print("|"+ array[i]);
-            if (k % array[i] == 0)
-                System.out.print("\n this number is multiple: " + array[i]);
-
+            System.out.print("|" + array[i]);
+        }
+        for (int value : array) {
+            if (k % value == 0)
+                System.out.print("\n this number is multiple: " + value);
         }
     }
-    }
+}
 
