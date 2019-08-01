@@ -18,9 +18,9 @@ public class Task_1 {
         }
         System.out.print(Arrays.toString(array)+ "\n");
 
-        for (int i=0; i < array.length; i++) {
-            if (array[i] % k == 0) {
-                sum = sum + array[i];
+        for (int value : array) {
+            if (value % k == 0) {
+                sum = sum + value;
             }
         }
         System.out.print("The sum of elements that are multiples of "+ k + " is " + sum);

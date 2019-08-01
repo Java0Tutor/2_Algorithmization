@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Task1" />
         <module name="Task0" />
+        <module name="Task2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Task0" target="1.5" />
       <module name="Task1" target="1.5" />
+      <module name="Task2" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
