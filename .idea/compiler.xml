@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Task1" />
         <module name="Task0" />
+        <module name="Task4" />
         <module name="Task3" />
         <module name="Task2" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="Task1" target="1.5" />
       <module name="Task2" target="1.5" />
       <module name="Task3" target="1.5" />
+      <module name="Task4" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
