@@ -10,7 +10,7 @@ public class Task_4 {
         int n = scanner.nextInt();
         int[] array = new int[n];
         for (int i = 0; i < array.length; i++) {
-            array[i] = ((int) (Math.random() * 100) - 50);
+            array[i] = (int) (Math.random() * 100) - 50;
         }
         System.out.print(Arrays.toString(array) + "\n");
 
