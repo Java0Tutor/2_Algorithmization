@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Task0/pom.xml" />
+        <option value="$PROJECT_DIR$/Task1/pom.xml" />
+        <option value="$PROJECT_DIR$/Task2/pom.xml" />
+        <option value="$PROJECT_DIR$/Task3/pom.xml" />
+        <option value="$PROJECT_DIR$/Task4/pom.xml" />
+        <option value="$PROJECT_DIR$/Task5/pom.xml" />
+        <option value="$PROJECT_DIR$/Task6/pom.xml" />
+        <option value="$PROJECT_DIR$/Task7/pom.xml" />
+      </list>
+    </option>
+  </component>
+</project>
