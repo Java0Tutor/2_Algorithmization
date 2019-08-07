@@ -10,7 +10,9 @@
         <option value="$PROJECT_DIR$/Task4/pom.xml" />
         <option value="$PROJECT_DIR$/Task5/pom.xml" />
         <option value="$PROJECT_DIR$/Task6/pom.xml" />
+        <option value="$PROJECT_DIR$/Task7/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
