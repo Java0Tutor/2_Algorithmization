@@ -2,36 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="917eea21-e983-40b3-9432-c9de0bec7e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/2_Algorithmization.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task0/Task0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task0/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task1/Task1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task1/src/main/java/Task_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task1/target/classes/Task_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/Task2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/Task_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task3/Task3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task3/src/main/java/Task_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task4/Task4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task4/src/main/java/Task_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task5/Task5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/Task_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task6/Task6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task6/src/main/java/Task_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task7/src/main/java/Task_1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task10/Task10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task10/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task10/src/main/java/Task_10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/Task7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/Task7.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
