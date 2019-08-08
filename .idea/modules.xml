@@ -21,7 +21,11 @@
 >>>>>>> Task_7
 =======
       <module fileurl="file://$PROJECT_DIR$/Task8/Task8.iml" filepath="$PROJECT_DIR$/Task8/Task8.iml" />
+<<<<<<< HEAD
 >>>>>>> Task_8
+=======
+      <module fileurl="file://$PROJECT_DIR$/Task9/Task9.iml" filepath="$PROJECT_DIR$/Task9/Task9.iml" />
+>>>>>>> Task_9
     </modules>
   </component>
 </project>

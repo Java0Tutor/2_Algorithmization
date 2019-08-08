@@ -69,6 +69,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1OnAMAyWI51bssZJ9hfiLXI8NF6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
