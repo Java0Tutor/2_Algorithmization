@@ -13,11 +13,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Task7/Task7.iml" filepath="$PROJECT_DIR$/Task7/Task7.iml" />
+<<<<<<< HEAD
 =======
 >>>>>>> Task_7
 =======
       <module fileurl="file://$PROJECT_DIR$/Task7/Task7.iml" filepath="$PROJECT_DIR$/Task7/Task7.iml" />
 >>>>>>> Task_7
+=======
+      <module fileurl="file://$PROJECT_DIR$/Task8/Task8.iml" filepath="$PROJECT_DIR$/Task8/Task8.iml" />
+>>>>>>> Task_8
     </modules>
   </component>
 </project>

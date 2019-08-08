@@ -8,6 +8,10 @@
         <outputRelativeToContentRoot value="true" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <module name="Task8" />
+>>>>>>> Task_8
         <module name="Task7" />
 =======
 >>>>>>> Task_7
@@ -38,7 +42,11 @@
 >>>>>>> Task_7
 =======
       <module name="Task7" target="8" />
+<<<<<<< HEAD
 >>>>>>> Task_7
+=======
+      <module name="Task8" target="7" />
+>>>>>>> Task_8
     </bytecodeTargetLevel>
   </component>
 </project>
