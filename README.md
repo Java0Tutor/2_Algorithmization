@@ -41,5 +41,45 @@ public class Task_1 {
  ```
  __________________________________________________________________________________________________________________________________
  ```java
- 
+ import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Task_11 {
+    public static void main(String[] args) {
+        /*  ENG 1. A matrix is given. Display all the odd columns
+         *          whose first element is larger than the last.
+         *  RUS 1. Дана матрица. Вывести на экран все нечетные столбцы,
+         *          у которых первый элемент больше последнего.
+         */
+        try (BufferedReader read = new BufferedReader(new InputStreamReader(System.in))) {
+            System.out.println("Enter quality of strings");
+            int n = Integer.parseInt(read.readLine());
+            System.out.println("Enter quality of columns");
+            int m = Integer.parseInt(read.readLine());
+            int[][] matrix = new int[n][m];
+            for (int i = 0; i < matrix.length; i++) {
+                for (int j = 0; j < matrix[i].length; j++) {
+                    int positiveNegative = Math.random() < 0.5 ? -1 : 1;
+                    matrix[i][j] = (int) (Math.random() * 100) * positiveNegative;
+                    System.out.printf("%3d ", matrix[i][j]);
+                }
+                System.out.println();
+            }
+            System.out.println();
+
+            //Output result of matrix
+            for (int i = 0; i < matrix.length; i++) {
+                for (int j = 0; j < matrix[i].length; j++) {
+                    if(j%2==0 && matrix[0][j] > matrix[n-1][j])
+                      System.out.printf(" %3d", matrix[i][j]);
+                }
+                System.out.println();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
  ```
