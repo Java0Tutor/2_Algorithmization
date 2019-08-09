@@ -1,4 +1,4 @@
-# Algorithmization
+# 2_Algorithmization
 Описание файлов:
  - Practice (tasks).pdf - файл содержит список задач, которые нужно решить для завершения этапа.
  - Questions.pdf - файл содержит вопросы, на которые нужно уметь отвечать по завершению этапа.
@@ -10,9 +10,9 @@
  import java.util.Arrays;
 import java.util.Scanner;
 
-// 1.ENG:Natural numbers are entered in the array A [N]. 
+   1.ENG:Natural numbers are entered in the array A [N]. 
      Find the sum of those elements that are multiples of a given K.
-// 1. RUS: В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.
+   1. RUS: В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.
 
 public class Task_1 {
     public static void main(String[] args) {
