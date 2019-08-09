@@ -4,15 +4,19 @@
  - Questions.pdf - файл содержит вопросы, на которые нужно уметь отвечать по завершению этапа.
  - Recommendations.pdf - файл содержит рекомендуемые материалы (видео и книги), к которым следует обратиться при возникновении трудностей при решении задач или ответах на вопросы.
  
+ Решение задач
+ 
  ```java
  import java.util.Arrays;
 import java.util.Scanner;
 
+// 1.ENG:Natural numbers are entered in the array A [N]. 
+     Find the sum of those elements that are multiples of a given K.
+// 1. RUS: В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.
+
 public class Task_1 {
     public static void main(String[] args) {
-// 1.ENG:Natural numbers are entered in the array A [N]. Find the sum of those elements that are multiples of a given K.
-//1. RUS: В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.
-
+    
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a size of array:");
         int n = scanner.nextInt();
@@ -35,4 +39,7 @@ public class Task_1 {
     }
 }
  ```
+ __________________________________________________________________________________________________________________________________
+ ```java
  
+ ```
