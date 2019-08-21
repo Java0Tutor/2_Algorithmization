@@ -100,7 +100,7 @@ import java.io.InputStreamReader;
         им позиции другого, а его элементы второго переместить в первый.
         Номера столбцов вводит пользователь с клавиатуры.
         */
-public class Task_17 {
+public class Task_18 {
     public static void main(String[] args) {
         try (BufferedReader read = new BufferedReader(new InputStreamReader(System.in))) {
             System.out.println("Enter quality of strings");
