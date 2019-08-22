@@ -3,14 +3,18 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /*      Eng:
-        Sort matrix rows in ascending and descending order of element values.
+        Sort matrix columns in ascending and descending order of element values.
         */
 /*      Rus:
-        Отсортировать строки матрицы по возрастанию и убыванию значений элементов.
+        Отсортировать столбцы матрицы по возрастанию и убыванию значений элементов.
         */
 
-public class Task_22 {
+public class Task_23 {
     public static void main(String[] args) {
+
+        boolean isSorted;
+        int swap;
+
         try (BufferedReader read = new BufferedReader(new InputStreamReader(System.in))) {
             System.out.println("Enter quality of strings");
             int n = Integer.parseInt(read.readLine());
@@ -26,21 +30,17 @@ public class Task_22 {
                 }
                 System.out.println();
             }
-            System.out.println();
-
-            boolean isSorted;
-            int swap;
-            System.out.println("Sorting by ascending ");
-            for (int i = 0; i < matrix.length; i++) {
+            System.out.println("\nSorting by ascending ");
+            for (int j = 0; j < matrix[0].length; j++) {
                 isSorted = false;
                 while (!isSorted) {
                     isSorted = true;
-                    for (int j = 0; j < matrix[i].length - 1; j++) {
-                        if (matrix[i][j] > matrix[i][j + 1]) {
+                    for (int i = 0; i < matrix.length - 1; i++) {
+                        if (matrix[i][j] > matrix[i + 1][j]) {
                             isSorted = false;
                             swap = matrix[i][j];
-                            matrix[i][j] = matrix[i][j + 1];
-                            matrix[i][j + 1] = swap;
+                            matrix[i][j] = matrix[i + 1][j];
+                            matrix[i + 1][j] = swap;
                         }
                     }
                 }
@@ -51,18 +51,17 @@ public class Task_22 {
                 }
                 System.out.println();
             }
-
             System.out.println("\nSorting by descending  ");
-            for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
                 isSorted = false;
                 while (!isSorted) {
                     isSorted = true;
-                    for (int j = 0; j < matrix[i].length - 1; j++) {
-                        if (matrix[i][j] < matrix[i][j + 1]) {
+                    for (int i = 0; i < matrix.length - 1; i++) {
+                        if (matrix[i][j] < matrix[i + 1][j]) {
                             isSorted = false;
                             swap = matrix[i][j];
-                            matrix[i][j] = matrix[i][j + 1];
-                            matrix[i][j + 1] = swap;
+                            matrix[i][j] = matrix[i + 1][j];
+                            matrix[i + 1][j] = swap;
                         }
                     }
                 }
