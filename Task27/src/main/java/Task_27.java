@@ -51,6 +51,7 @@ public class Task_27 {
         }
     }
 }
+
 /*
     Example of output:
         Enter quantity an elements of first array:

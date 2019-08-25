@@ -15,6 +15,7 @@ import java.io.InputStreamReader;
 public class Task_28 {
     public static void main(String[] args) {
         try (BufferedReader read = new BufferedReader(new InputStreamReader(System.in))) {
+
             System.out.println("Enter quantity the elements of first sequence: ");
             int n = Integer.parseInt(read.readLine());
             int[] firstArray = new int[n + 1];
