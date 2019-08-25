@@ -19,7 +19,7 @@ public class Task_29 {
     public static void main(String[] args) {
         try (BufferedReader read = new BufferedReader(new InputStreamReader(System.in))) {
 
-            System.out.println("Enter quantity the elements of first sequence: ");
+            System.out.println("Enter quantity the elements of sequence: ");
             int n = Integer.parseInt(read.readLine());
             int[] array = new int[n + 1];
             for (int i = 1; i < array.length; i++) {
@@ -50,3 +50,10 @@ public class Task_29 {
         }
     }
 }
+/*
+    Example of output:
+    Enter quantity the elements of sequence:
+        5
+        3, 6, 9, 12, 15,
+        15, 12, 9, 6, 3,
+ */
