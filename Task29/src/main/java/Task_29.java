@@ -41,8 +41,9 @@ public class Task_29 {
                 array[i] = array[max];
                 array[max] = temp;
             }
-            for (int value : array)
-                System.out.print(value + ", ");
+            for (int i = 0; i < array.length-1; i++) {
+                System.out.print(array[i] + ", ");
+            }
 
         } catch (IOException e) {
             e.printStackTrace();

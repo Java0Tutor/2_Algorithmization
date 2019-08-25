@@ -1,0 +1,114 @@
+Index: Task30/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Task30/pom.xml	(date 1566754829510)
++++ Task30/pom.xml	(date 1566754829510)
+@@ -0,0 +1,24 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>io.github.EugeneZakhno</groupId>
++    <artifactId>Task#30</artifactId>
++    <version>1.0-SNAPSHOT</version>
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-compiler-plugin</artifactId>
++                <configuration>
++                    <source>7</source>
++                    <target>7</target>
++                </configuration>
++            </plugin>
++        </plugins>
++    </build>
++
++
++</project>
+\ No newline at end of file
+Index: Task30/src/main/java/Task_31.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Task30/src/main/java/Task_31.java	(date 1566754870102)
++++ Task30/src/main/java/Task_31.java	(date 1566754870102)
+@@ -0,0 +1,53 @@
++import java.io.BufferedReader;
++import java.io.IOException;
++import java.io.InputStreamReader;
++/*
++        ENG:
++        Given two one-dimensional arrays with a different number of elements and a natural number k. Combine them into
++        one array, including the second array between the kth and (k + 1) - m elements of the first, without using
++        additional array.
++
++        RUS:
++        3.1 Заданы два одномерных массива с различным количеством элементов и натуральное число k. Объединить их в
++        один массив, включив второй массив между k-м и (k+1) - м элементами первого, при этом не используя
++        дополнительный массив.
++*/
++public class Task_31 {
++    public static void main(String[] args) {
++        try (BufferedReader read = new BufferedReader(new InputStreamReader(System.in))) {
++
++            System.out.println("Enter quantity an elements of first array: ");
++            int n = Integer.parseInt(read.readLine());
++            int [] firstArray = new int [n];
++
++            for (int i = 0; i < firstArray.length; i++) {
++                firstArray[i]= (int) (Math.random()*100)-50;
++                System.out.print(firstArray[i] + ", ");
++            }
++
++            System.out.println("\n\nEnter quantity an elements of second array: ");
++            int m = Integer.parseInt(read.readLine());
++            int [] secondArray = new int [m];
++
++            for (int i = 0; i < secondArray.length; i++) {
++                secondArray[i]= (int) (Math.random()*100)-50;
++                System.out.print(secondArray[i] + ", ");
++            }
++
++            System.out.println("\n\nChoose number from first array: ");
++            int k = Integer.parseInt(read.readLine());
++
++            System.out.println("\n\nResult of joining two arrays : ");
++            for (int i = 0; i < firstArray.length; i++) {
++                System.out.print(firstArray[i] + ", ");
++                if (k == firstArray[i]) {
++                    for (int j = 0; j < secondArray.length; j++) {
++                        System.out.print(secondArray[j] + ", ");
++                    }
++                }
++            }
++        } catch (IOException e) {
++            e.printStackTrace();
++        }
++    }
++}
+\ No newline at end of file
+Index: Task29/src/main/java/Task_29.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Task29/src/main/java/Task_29.java	(revision 04760319245891965ebc24f9a56adf4281630b80)
++++ Task29/src/main/java/Task_29.java	(date 1566756071435)
+@@ -41,8 +41,9 @@
+                 array[i] = array[max];
+                 array[max] = temp;
+             }
+-            for (int value : array)
+-                System.out.print(value + ", ");
++            for (int i = 0; i < array.length-1; i++) {
++                System.out.print(array[i] + ", ");
++            }
+ 
+         } catch (IOException e) {
+             e.printStackTrace();
