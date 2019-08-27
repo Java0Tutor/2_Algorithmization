@@ -10,19 +10,21 @@ import java.io.InputStreamReader;
 public class Task_35 {
 
         public static void main(String[] args) throws IOException {
+
             int a, b;
             int gcd, lcm;
 
-            BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));
+            try (BufferedReader read = new BufferedReader(new InputStreamReader(System.in))) {
             System.out.println("Enter two natural numbers:");
-
-            a = Integer.parseInt(rd.readLine());
-            b = Integer.parseInt(rd.readLine());
+            a = Integer.parseInt(read.readLine());
+            b = Integer.parseInt(read.readLine());
             gcd = findGcd(a, b);
             System.out.println("Largest Common Factor: " + gcd);
             lcm = findLcm(a, b);
             System.out.println("Least Common Multiple : " + lcm);
-
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
 
         private static int findGcd(int a, int b) {
