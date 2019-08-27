@@ -42,7 +42,6 @@ public class Task_35 {
             }
             return a;
         }
-
         private static int findLcm(int a, int b) {
             return Math.abs(a * b / findGcd(a, b));
         }
