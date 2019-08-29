@@ -3,49 +3,32 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 /*
      Eng:
-     The natural numbers K and N are given. Write a method (methods) of forming the array A,
-	 whose elements are numbers whose sum of digits is equal to K and which are not
-     greater than N.
+     Write a method (s) that determines which of the two numbers has more digits.
 
-      Rus:
-      Даны натуральные числа К и N. Написать метод(методы) формирования массива А,
-      элементами которого являются числа, сумма цифр которых равна К и которые не большее N.
+     Rus:
+     Написать метод(методы), определяющий, в каком из данных двух чисел больше цифр.
 */
-class Task_46 {
-
+class Task_45 {
+    private static String moreDigits(int m, int n) {
+        int firstCount = (int)(Math.log10(Math.abs(m))+1);
+        int secondCount = (int)(Math.log10(Math.abs(n))+1);
+        if (firstCount == secondCount) {
+            return "The quantity of digits is equal";
+        } else {
+            return (firstCount > secondCount) ? ("M consists more") : ("N consists more");
+        }
+    }
     public static void main(String[] args) {
         try (BufferedReader read = new BufferedReader(new InputStreamReader(System.in))) {
-            System.out.println("Enter the number K: ");
-            int k = Integer.parseInt(read.readLine());
+            System.out.println("Enter the number M: ");
+            int m = Integer.parseInt(read.readLine());
             System.out.println("Enter the number N: ");
             int n = Integer.parseInt(read.readLine());
-
-            int [] array = createArray(k, n);
-
-            System.out.println("The result is: ");
-            printArray(array);
-
+            System.out.println("Number that consist more digits: ");
+            System.out.println(moreDigits(m, n));
         } catch (IOException ex) {
             ex.printStackTrace();
         }
     }
-
-    private static int [] createArray (int k, int n) {
-        int [] array = new int[k];
-        int i;
-        for (i = 0; i < array.length && k > n; i++) {
-            array[i] = (int) (Math.random() * n) + 1;
-            k -= array[i];
-        }
-        array[i] = k;
-        int [] arrayA = new int[i + 1];
-        System.arraycopy(array, 0, arrayA, 0, i + 1);
-        return arrayA;
-    }
-
-    private static void printArray (int [] array) {  //вывод массива
-        for (int element : array) {
-            System.out.printf("%3d ", element);
-        }
-    }
 }
+
